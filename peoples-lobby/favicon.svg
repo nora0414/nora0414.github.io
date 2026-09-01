@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="People's Lobby lobby pass">
+  <rect width="64" height="64" fill="#F4EFE6"/>
+  <rect x="10" y="14" width="44" height="36" rx="2.5" fill="#FBF8F2" stroke="#B45A32" stroke-width="1.5"/>
+  <rect x="12.5" y="16.5" width="39" height="31" rx="1.5" fill="none" stroke="#C4B8A5" stroke-width="0.75"/>
+  <circle cx="32" cy="14" r="2.4" fill="#F4EFE6" stroke="#B45A32" stroke-width="1.25"/>
+  <circle cx="32" cy="14" r="1" fill="#1A1714"/>
+  <text x="32" y="32" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-weight="600" fill="#1A1714" letter-spacing="1.4">PL</text>
+  <text x="32" y="42" text-anchor="middle" font-family="ui-monospace, monospace" font-size="5" fill="#B45A32" letter-spacing="1.8">PASS</text>
+</svg>
