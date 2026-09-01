@@ -1,24 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 580" role="img" aria-labelledby="jacket-title jacket-desc">
   <title id="jacket-title">The jacket: a sitting member wearing donor patches</title>
   <desc id="jacket-desc">Original briefing-book diagram. Generic silhouette, not a person. Invented donor-category patches. Sample disclosure, not a photograph.</desc>
-  <rect width="440" height="580" fill="#FBF8F2"/>
+
+  <rect width="440" height="580" fill="#F5F1E8"/>
+
   <rect x="16" y="16" width="408" height="548" fill="none" stroke="#C4B8A5" stroke-width="0.75"/>
-  <rect x="22" y="22" width="396" height="536" fill="none" stroke="#1A1714" stroke-width="0.6"/>
+  <rect x="22" y="22" width="396" height="536" fill="none" stroke="#1C1815" stroke-width="0.6"/>
+
   <path d="M16 36 H8 M16 36 V28 M424 36 H432 M424 36 V28 M16 544 H8 M16 544 V552 M424 544 H432 M424 544 V552" fill="none" stroke="#B45A32" stroke-width="0.8"/>
-  <text x="32" y="44" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="9" letter-spacing="2.2" fill="#B45A32">FIG. 01</text>
-  <text x="408" y="44" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="9" letter-spacing="1.6" fill="#1A1714">SAMPLE · NOT A PERSON</text>
+
+  <text x="32" y="44" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="9" letter-spacing="2.2" fill="#B45A32">FIG. 01</text>
+  <text x="408" y="44" text-anchor="end" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="9" letter-spacing="1.6" fill="#1C1815">SAMPLE · NOT A PERSON</text>
   <line x1="32" y1="54" x2="408" y2="54" stroke="#C4B8A5" stroke-width="0.5"/>
-  <text x="220" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3.4" fill="#1A1714">THE JACKET</text>
-  <text x="220" y="90" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="8" letter-spacing="1.4" fill="#6B645C">sitting member · biggest donors · arranged as patches</text>
-  <g fill="#1A1714">
+  <text x="220" y="74" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3.4" fill="#1C1815">THE JACKET</text>
+  <text x="220" y="90" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="8" letter-spacing="1.4" fill="#6B6459">sitting member · biggest donors · arranged as patches</text>
+
+  <g opacity="0.18" stroke="#C4B8A5" stroke-width="0.4">
+    <path d="M80 500 L360 500 M90 508 L350 508 M100 516 L340 516"/>
+  </g>
+
+  <g fill="#1C1815">
     <ellipse cx="220" cy="138" rx="27" ry="33"/>
     <path d="M196 128 C198 108 210 100 220 99 C230 100 242 108 244 128 C248 122 246 108 236 102 C228 96 212 96 204 102 C194 108 192 122 196 128Z"/>
     <rect x="212" y="168" width="16" height="18" rx="3"/>
   </g>
-  <ellipse cx="192" cy="140" rx="5" ry="8" fill="#1A1714"/>
-  <ellipse cx="248" cy="140" rx="5" ry="8" fill="#1A1714"/>
-  <path d="M168 186 C150 196 118 230 108 278 C100 322 98 370 104 412 C108 436 128 448 156 454 L284 454 C312 448 332 436 336 412 C342 370 340 322 332 278 C322 230 290 196 272 186 C262 196 240 202 220 202 C200 202 178 196 168 186Z" fill="#F4EFE6" stroke="#1A1714" stroke-width="1.35"/>
-  <path d="M176 188 C190 204 206 212 220 212 C234 212 250 204 264 188 L248 228 C240 220 230 216 220 216 C210 216 200 220 192 228 Z" fill="#1A1714"/>
+  <ellipse cx="192" cy="140" rx="5" ry="8" fill="#1C1815"/>
+  <ellipse cx="248" cy="140" rx="5" ry="8" fill="#1C1815"/>
+
+  <path d="M168 186 C150 196 118 230 108 278 C100 322 98 370 104 412 C108 436 128 448 156 454 L284 454 C312 448 332 436 336 412 C342 370 340 322 332 278 C322 230 290 196 272 186 C262 196 240 202 220 202 C200 202 178 196 168 186Z" fill="#FAF7F2" stroke="#1C1815" stroke-width="1.35"/>
+
+  <path d="M176 188 C190 204 206 212 220 212 C234 212 250 204 264 188 L248 228 C240 220 230 216 220 216 C210 216 200 220 192 228 Z" fill="#1C1815"/>
+  <path d="M196 226 L220 248 L244 226" fill="none" stroke="#FAF7F2" stroke-width="0.7"/>
+
   <line x1="220" y1="248" x2="220" y2="450" stroke="#B45A32" stroke-width="1.6"/>
   <g fill="#B45A32">
     <rect x="217.2" y="262" width="5.6" height="4" rx="0.6"/>
@@ -28,21 +41,58 @@
     <rect x="217.2" y="382" width="5.6" height="4" rx="0.6"/>
     <rect x="217.2" y="412" width="5.6" height="4" rx="0.6"/>
   </g>
-  <rect x="138" y="268" width="68" height="36" rx="2" fill="#FBF8F2" stroke="#B45A32" stroke-width="1.4"/>
-  <text x="172" y="284" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="7" letter-spacing="1.1" fill="#B45A32">REGIONAL</text>
-  <text x="172" y="296" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="7" letter-spacing="1.1" fill="#1A1714">FINANCE</text>
-  <rect x="234" y="268" width="68" height="36" rx="2" fill="#FBF8F2" stroke="#B45A32" stroke-width="1.4"/>
-  <text x="268" y="284" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="7" letter-spacing="1.1" fill="#B45A32">ENERGY</text>
-  <text x="268" y="296" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="7" letter-spacing="1.1" fill="#1A1714">HOLDINGS</text>
-  <rect x="86" y="318" width="58" height="28" rx="2" fill="#FBF8F2" stroke="#1A1714" stroke-width="1.1"/>
-  <text x="115" y="331" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="6" letter-spacing="0.8" fill="#B45A32">HEALTH</text>
-  <text x="115" y="341" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="6" letter-spacing="0.8" fill="#1A1714">ALLIANCE</text>
-  <rect x="296" y="318" width="58" height="28" rx="2" fill="#FBF8F2" stroke="#1A1714" stroke-width="1.1"/>
-  <text x="325" y="331" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="6" letter-spacing="0.8" fill="#B45A32">HARBOR</text>
-  <text x="325" y="341" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="6" letter-spacing="0.8" fill="#1A1714">NORTH</text>
-  <rect x="168" y="408" width="104" height="26" rx="2" fill="#1A1714"/>
-  <text x="220" y="419" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="6.5" letter-spacing="1.4" fill="#F4EFE6">CIVIC HOLDINGS</text>
-  <text x="220" y="429" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="5.5" letter-spacing="1.8" fill="#B45A32">SAMPLE PATCH</text>
-  <text x="220" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1A1714">The disclosure, finally arranged.</text>
-  <text x="220" y="520" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="8" letter-spacing="1.5" fill="#6B645C">INVENTED LABELS · NO REAL DONOR MARKS · NO LIVING MEMBER</text>
+
+  <path d="M148 250 C160 300 164 360 158 450" fill="none" stroke="#1C1815" stroke-width="0.55"/>
+  <path d="M292 250 C280 300 276 360 282 450" fill="none" stroke="#1C1815" stroke-width="0.55"/>
+  <path d="M132 300 C150 310 190 316 220 316 C250 316 290 310 308 300" fill="none" stroke="#C4B8A5" stroke-width="0.5"/>
+
+  <g opacity="0.22" stroke="#1C1815" stroke-width="0.35">
+    <path d="M128 290 L146 310 M124 310 L144 330 M122 330 L142 350 M120 350 L140 370 M118 370 L138 390 M116 390 L136 410"/>
+    <path d="M312 290 L294 310 M316 310 L296 330 M318 330 L298 350 M320 350 L300 370 M322 370 L302 390 M324 390 L304 410"/>
+  </g>
+
+  <g>
+    <rect x="138" y="268" width="68" height="36" rx="2" fill="#F5F1E8" stroke="#B45A32" stroke-width="1.4"/>
+    <rect x="141" y="271" width="62" height="30" rx="1" fill="none" stroke="#1C1815" stroke-width="0.5"/>
+    <text x="172" y="284" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="7" letter-spacing="1.1" fill="#B45A32">REGIONAL</text>
+    <text x="172" y="296" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="7" letter-spacing="1.1" fill="#1C1815">FINANCE</text>
+  </g>
+  <g>
+    <rect x="234" y="268" width="68" height="36" rx="2" fill="#F5F1E8" stroke="#B45A32" stroke-width="1.4"/>
+    <rect x="237" y="271" width="62" height="30" rx="1" fill="none" stroke="#1C1815" stroke-width="0.5"/>
+    <text x="268" y="284" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="7" letter-spacing="1.1" fill="#B45A32">ENERGY</text>
+    <text x="268" y="296" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="7" letter-spacing="1.1" fill="#1C1815">HOLDINGS</text>
+  </g>
+
+  <g>
+    <rect x="86" y="318" width="58" height="28" rx="2" fill="#F5F1E8" stroke="#1C1815" stroke-width="1.1"/>
+    <rect x="88.5" y="320.5" width="53" height="23" rx="1" fill="none" stroke="#B45A32" stroke-width="0.6"/>
+    <text x="115" y="331" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="6" letter-spacing="0.8" fill="#B45A32">HEALTH</text>
+    <text x="115" y="341" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="6" letter-spacing="0.8" fill="#1C1815">ALLIANCE</text>
+  </g>
+  <g>
+    <rect x="296" y="318" width="58" height="28" rx="2" fill="#F5F1E8" stroke="#1C1815" stroke-width="1.1"/>
+    <rect x="298.5" y="320.5" width="53" height="23" rx="1" fill="none" stroke="#B45A32" stroke-width="0.6"/>
+    <text x="325" y="331" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="6" letter-spacing="0.8" fill="#B45A32">HARBOR</text>
+    <text x="325" y="341" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="6" letter-spacing="0.8" fill="#1C1815">NORTH</text>
+  </g>
+
+  <g>
+    <rect x="168" y="408" width="104" height="26" rx="2" fill="#1C1815"/>
+    <text x="220" y="419" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="6.5" letter-spacing="1.4" fill="#FAF7F2">CIVIC HOLDINGS</text>
+    <text x="220" y="429" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="5.5" letter-spacing="1.8" fill="#B45A32">SAMPLE PATCH</text>
+  </g>
+
+  <path d="M108 278 C92 300 80 340 86 372 C90 392 102 400 118 396" fill="none" stroke="#1C1815" stroke-width="1.2"/>
+  <path d="M332 278 C348 300 360 340 354 372 C350 392 338 400 322 396" fill="none" stroke="#1C1815" stroke-width="1.2"/>
+  <rect x="96" y="388" width="28" height="10" rx="2" fill="#1C1815"/>
+  <rect x="316" y="388" width="28" height="10" rx="2" fill="#1C1815"/>
+
+  <ellipse cx="108" cy="408" rx="10" ry="8" fill="#1C1815"/>
+  <ellipse cx="332" cy="408" rx="10" ry="8" fill="#1C1815"/>
+
+  <line x1="32" y1="478" x2="408" y2="478" stroke="#C4B8A5" stroke-width="0.5"/>
+  <text x="220" y="500" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="12" fill="#1C1815">The disclosure, arranged so a person can see it.</text>
+  <text x="220" y="520" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="8" letter-spacing="1.5" fill="#6B6459">INVENTED LABELS · NO REAL DONOR MARKS · NO LIVING MEMBER</text>
+  <text x="220" y="540" text-anchor="middle" font-family="'Public Sans', ui-sans-serif, sans-serif" font-size="8" letter-spacing="1.2" fill="#B45A32">CONCEPT</text>
 </svg>
