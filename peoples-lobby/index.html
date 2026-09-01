@@ -4,71 +4,264 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>People's Lobby</title>
-    <meta name="description" content="People's Lobby is a white-label of Citizen Portal. Same record. Different question: the rise of corporate power in American government, and the lessening of everyday people's influence. Not a PAC. Not a talk show. The filings." />
+    <meta
+      name="description"
+      content="People's Lobby is a white-label of Citizen Portal. Same record. Different question: the rise of corporate power in American government, and the lessening of everyday people's influence. Not a PAC. Not a talk show. The filings."
+    />
+    <meta property="og:title" content="People's Lobby" />
+    <meta
+      property="og:description"
+      content="People's Lobby is a white-label of Citizen Portal. Same record. Different question: the rise of corporate power in American government, and the lessening of everyday people's influence. Not a PAC. Not a talk show. The filings."
+    />
+    <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/index-CueZPv4d.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,500;1,9..144,800&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
-    <header class="mast">
-      <div class="wordmark">
-        <svg class="pass" viewBox="0 0 64 64" aria-hidden="true">
-          <rect x="8" y="14" width="48" height="38" rx="2.5" fill="#FBF8F2" stroke="#B45A32" stroke-width="1.6" />
-          <rect x="11" y="17" width="42" height="32" rx="1.4" fill="none" stroke="#C4B8A5" stroke-width="0.7" />
-          <circle cx="32" cy="14" r="2.6" fill="#F4EFE6" stroke="#B45A32" stroke-width="1.3" />
-          <text x="32" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="600" fill="#1A1714" letter-spacing="1.2">PL</text>
-          <text x="32" y="44" text-anchor="middle" font-family="ui-monospace, monospace" font-size="5.2" fill="#B45A32" letter-spacing="1.6">PASS</text>
-        </svg>
-        <p class="name">People’s Lobby</p>
-      </div>
-      <p class="kicker">The same government record. A harder question.</p>
+
+    <header class="top">
+      <a class="brand" href="#top">
+        <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-text">
+          <span class="brand-name">People’s <em>Lobby</em></span>
+          <span class="brand-sub">A new lens on the government record</span>
+        </span>
+      </a>
+      <nav>
+        <a href="#problem">Problem</a>
+        <a href="#how">How it works</a>
+        <a href="#jacket">The jacket</a>
+        <a href="#record">The record</a>
+        <a href="#team">Team</a>
+      </nav>
     </header>
-    <main>
-      <section class="hero" aria-labelledby="headline">
+
+    <main id="top">
+      <section class="hero">
         <div class="hero-copy">
-          <h1 id="headline">Who actually writes the law?</h1>
-          <p class="deck">People’s Lobby is a white-label of Citizen Portal. Same record. Different question: the rise of corporate power in American government, and the lessening of everyday people’s influence. Not a PAC. Not a talk show. The filings.</p>
+          <p class="eyebrow quiet">A new lens on the government record</p>
+          <h1>Who actually writes the law?</h1>
+          <p class="deck">
+            People’s Lobby is a white-label of Citizen Portal. Same record. Different question: the rise of corporate power in American government, and the lessening of everyday people’s influence. Not a PAC. Not a talk show. The filings.
+          </p>
+          <div class="chips">
+            <span>Built by the person who built Ancestry.com</span>
+            <span>Same government record. Different question.</span>
+            <span>A point of view, not a PAC</span>
+          </div>
         </div>
-        <figure class="evidence">
-          <img src="./jacket.svg" width="440" height="580" alt="Briefing-book diagram: a generic sitting member wearing an F1-style jacket of invented donor patches. Sample disclosure, not a person." />
+
+        <figure class="evidence" aria-label="The jacket — evidence card">
+          <div class="evidence-head">
+            <span>The jacket</span>
+            <span class="evidence-tag">Disclosure, arranged</span>
+          </div>
+          <img
+            src="./jacket.svg"
+            width="440"
+            height="580"
+            alt="Briefing-book diagram: a generic sitting member wearing an F1-style jacket of invented donor patches — Regional Finance, Energy Holdings, Health Alliance. Sample disclosure, not a person."
+          />
+          <figcaption>
+            You already know what a Formula 1 jacket looks like. Every patch is a sponsor. Now picture a sitting member wearing their biggest donors the same way.
+          </figcaption>
         </figure>
       </section>
-      <section class="jacket-note" aria-label="The jacket">
-        <p>You already know what a Formula 1 jacket looks like. Every patch is a sponsor. Now picture a sitting member wearing their biggest donors the same way. That picture is not a stunt. It is the disclosure, finally arranged so a person can see it.</p>
+
+      <section class="strip" aria-label="The 30-second version">
+        <div class="strip-rule">
+        <p class="eyebrow">The 30-second version</p>
+        <div class="tiles">
+          <div>
+            <p class="num">60B</p>
+            <p>historical records at Ancestry — a career making a record people could actually read</p>
+          </div>
+          <div>
+            <p class="num">100M</p>
+            <p>people who used that record. The same standard, pointed at government</p>
+          </div>
+          <div>
+            <p class="num word">The record</p>
+            <p>Meetings, filings, the government record from federal to local. Already public</p>
+          </div>
+          <div>
+            <p class="num word">Corporate power</p>
+            <p>Not a PAC. Not a talk show. Everyday influence receded. The filings</p>
+          </div>
+        </div>
+        </div>
       </section>
-      <section class="trails" aria-labelledby="trails-label">
-        <p class="section-kicker" id="trails-label">Three trails</p>
-        <ol>
-          <li><span class="n">01</span><h2>Dollars in</h2><p>Who paid for the campaign.</p></li>
-          <li><span class="n">02</span><h2>Dollars out</h2><p>What was spent to move the work.</p></li>
-          <li><span class="n">03</span><h2>Who was in the room</h2><p>The registered lobbyists, the committees they work, the week before the vote. Lobbyists often write the bill. That is in the record.</p></li>
+
+      <section class="problem" id="problem">
+        <div class="problem-copy">
+          <p class="eyebrow">The problem</p>
+          <h2>The room was <em>bought</em>.<br />Most people never saw it happen.</h2>
+          <div class="prose">
+            <p>
+              Donors pay for the campaign. Registered lobbyists work the committee. The bill that reaches the floor often arrives already written. Everyday people still vote. They do not sit in the room the week before the vote.
+            </p>
+            <p>
+              That is not a theory about secret societies. It is a description of what the disclosures already say — if anyone bothers to arrange them so a person can see them. Campaign reports. Lobbying registrations. The calendar of who met whom before markup.
+            </p>
+            <p class="rule-note">
+              The influence was always in the filings. What failed was the page. A citizen should not need a trade to notice that the people who write the law are wearing someone else’s names.
+            </p>
+          </div>
+        </div>
+        <aside class="unseen">
+          <p class="mono-label">And nobody can see it happening</p>
+          <ul>
+            <li>
+              <p>The money is public but unreadable</p>
+              <p>Campaign reports and lobbying registrations sit in separate piles. Nobody wears them at once.</p>
+            </li>
+            <li>
+              <p>The room is small, and not yours</p>
+              <p>Lobbyists often write the bill. That is in the record. Everyday people get a minute at the microphone.</p>
+            </li>
+            <li>
+              <p>So the argument stays a feeling</p>
+              <p>People know the jacket is covered. They cannot point to the patches. That is the job of this page.</p>
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="how" id="how">
+        <p class="eyebrow">How it works</p>
+        <h2>Three steps, from the public record to who was in the room.</h2>
+        <ol class="steps">
+          <li>
+            <span class="n">01</span>
+            <h3>Ingest the record</h3>
+            <p>Citizen Portal is the data layer — public meetings, filings, the government record from federal to local. People’s Lobby reads that same feed.</p>
+          </li>
+          <li>
+            <span class="n">02</span>
+            <h3>Follow dollars in and dollars out</h3>
+            <p>Who paid for the campaign. What was spent to move the work. Two trails through the same disclosure, finally put on one page.</p>
+          </li>
+          <li>
+            <span class="n">03</span>
+            <h3>Show who was in the room</h3>
+            <p>The registered lobbyists, the committees they work, the week before the vote. Lobbyists often write the bill. That is in the record.</p>
+          </li>
         </ol>
       </section>
-      <section class="record" aria-labelledby="record-label">
-        <p class="section-kicker" id="record-label">Same record</p>
-        <h2>Different question.</h2>
-        <p>Citizen Portal is the data layer — public meetings, filings, the government record from federal to local. People’s Lobby puts one job on top of that record. Follow corporate influence as it grew. Follow the ordinary citizen’s influence as it receded.</p>
-      </section>
-      <section class="concept" aria-labelledby="concept-label">
-        <div class="concept-head">
-          <p class="stamp">Concept</p>
-          <p class="section-kicker" id="concept-label">Before the vote</p>
+
+      <section class="stories" id="jacket">
+        <p class="eyebrow">The jacket</p>
+        <h2>Six scenes from the same filing.</h2>
+        <p class="lede">
+          Not a product map. Thesis scenes — the picture a person should be able to hold after thirty seconds with the record.
+        </p>
+        <div class="cards">
+          <article>
+            <header>
+              <span>The jacket</span>
+              <span class="n">01</span>
+            </header>
+            <h3>They wear the money.</h3>
+            <p>
+              You already know what a Formula 1 jacket looks like. Every patch is a sponsor. Now picture a sitting member wearing their biggest donors the same way. That picture is not a stunt. It is the disclosure, finally arranged so a person can see it.
+            </p>
+          </article>
+          <article>
+            <header>
+              <span>The drafted bill</span>
+              <span class="n">02</span>
+            </header>
+            <h3>The text arrives finished.</h3>
+            <p>
+              An amendment shows up the night before markup, already clean. Someone wrote it who does not hold the seat. The filing names the registrant, the client, the issue. That is not a rumor about who runs Washington. That is the disclosure.
+            </p>
+          </article>
+          <article>
+            <header>
+              <span>The committee week</span>
+              <span class="n">03</span>
+            </header>
+            <h3>The vote is the last hour.</h3>
+            <p>
+              Monday is the meeting. Tuesday is the follow-up. Wednesday is markup. Thursday is the vote. The room is small. The people in it are on a list. Follow the week and you follow the bill — not the speech given after it passed.
+            </p>
+          </article>
+          <article>
+            <header>
+              <span>Dollars in</span>
+              <span class="n">04</span>
+            </header>
+            <h3>Who paid for the campaign.</h3>
+            <p>
+              Campaign money is not atmosphere. It is a report. The names that bought the ads sit in the same government record as the names on the roll call. Put them next to each other and the jacket starts to make sense.
+            </p>
+          </article>
+          <article>
+            <header>
+              <span>Dollars out</span>
+              <span class="n">05</span>
+            </header>
+            <h3>What was spent to move the work.</h3>
+            <p>
+              Then the other trail: retainers, issue campaigns, the hired presence in the building the week the text moved. Dollars in buy the seat. Dollars out move the paragraph. Both are filings. Both can be read.
+            </p>
+          </article>
+          <article>
+            <header>
+              <span>The receding citizen</span>
+              <span class="n">06</span>
+            </header>
+            <h3>A minute at the microphone.</h3>
+            <p>
+              A person still has a name on a roll. They can still take a Thursday if they can get off work. The influence that used to travel with that minute has been outspent and outlasted. The record can show the gap. That is the job.
+            </p>
+          </article>
         </div>
-        <p class="concept-lede">A designed committee-week scene: who met the banking committee before the vote. Names below are invented. This is not coverage.</p>
-        <div class="concept-grid">
+      </section>
+
+      <section class="proof" id="record">
+        <div class="proof-head">
+          <p class="stamp">Concept</p>
+          <p class="eyebrow">The record</p>
+        </div>
+        <h2>This is a designed scene, not live coverage.</h2>
+        <p class="lede">
+          A committee-week picture: who met the banking committee before the vote. Names below are invented. The filings already exist. This card is how they might be read.
+        </p>
+        <div class="proof-grid">
           <div class="week">
             <p class="mono-label">Committee week — banking · sample</p>
             <ol>
-              <li><span class="day">Mon</span><span class="who">Member A, banking committee</span><span class="with">Harbor North Capital</span></li>
-              <li><span class="day">Tue</span><span class="who">Harbor North Capital</span><span class="with">Regional Finance, client</span></li>
-              <li><span class="day">Wed</span><span class="who">Member A</span><span class="with">markup · S. ####</span></li>
-              <li><span class="day">Thu</span><span class="who">the vote</span><span class="with">sample week, not a live calendar</span></li>
+              <li>
+                <span class="day">Mon</span>
+                <span class="who">Member A, banking committee</span>
+                <span class="with">Harbor North Capital</span>
+              </li>
+              <li>
+                <span class="day">Tue</span>
+                <span class="who">Harbor North Capital</span>
+                <span class="with">Regional Finance, client</span>
+              </li>
+              <li>
+                <span class="day">Wed</span>
+                <span class="who">Member A</span>
+                <span class="with">markup · S. ####</span>
+              </li>
+              <li>
+                <span class="day">Thu</span>
+                <span class="who">the vote</span>
+                <span class="with">sample week, not a live calendar</span>
+              </li>
             </ol>
           </div>
-          <aside class="filing" aria-label="Sample filing card">
+          <aside class="filing">
             <p class="mono-label">Sample filing</p>
             <dl>
               <div><dt>Form</dt><dd>LD-2 · Q2 · not a live record</dd></div>
@@ -77,23 +270,90 @@
               <div><dt>Issue</dt><dd>banking committee · S. ####</dd></div>
               <div><dt>Member</dt><dd>Member A — invented</dd></div>
             </dl>
-            <p class="filing-foot">The filings already exist. This card is a picture of how they might be read.</p>
+            <p class="filing-foot">The honest seam: this is a briefing picture, not a terminal pretending to fetch.</p>
           </aside>
         </div>
       </section>
-      <section class="cred" aria-labelledby="cred-label">
-        <p class="section-kicker" id="cred-label">The record</p>
-        <p class="cred-lead">Built by the person who built Ancestry.com.</p>
-        <p>Paul Allen, co-founder of Ancestry.com. He spent a career making a record people could actually read. Ancestry for families. Citizen Portal for government. People’s Lobby for the question of who government is working for.</p>
+
+      <section class="now">
+        <div>
+          <p class="eyebrow">Why now</p>
+          <h2>The record only became readable recently.</h2>
+          <p>
+            The influence was always in the filings. What changed is that Citizen Portal turned meetings and disclosures — federal to local — into a record a person can actually follow. People’s Lobby is the question you ask once that record exists: who was the government working for, and when did the ordinary citizen leave the room?
+          </p>
+        </div>
+        <div>
+          <p class="eyebrow">The opportunity</p>
+          <h2>A national picture of corporate influence.</h2>
+          <p>
+            Same government record. One job on top of it. Follow corporate power as it grew. Follow everyday people’s influence as it receded. Not a score for sale. Not a map of sectors carved in advance. A picture a stranger can hold — city, state, and federal — because the filings already run that far.
+          </p>
+        </div>
       </section>
+
+      <section class="team" id="team">
+        <p class="eyebrow">Team</p>
+        <p class="cred-first">Built by the person who built Ancestry.com.</p>
+        <h2>60 billion records. 100 million people who could actually read them.</h2>
+        <p class="lede">
+          Ancestry for families. Citizen Portal for government. People’s Lobby for the question of who government is working for.
+        </p>
+        <div class="bio">
+          <p class="bio-name">Paul Allen</p>
+          <p class="bio-role">Co-founder, Ancestry.com</p>
+          <p>
+            Paul Allen, co-founder of Ancestry.com. He spent a career making a record people could actually read. That prior scoreboard is the only one this page will print: 60 billion historical records, 100 million users. The same problem, pointed at the government record — and then at the harder question of who that record is working for.
+          </p>
+        </div>
+      </section>
+
+      <section class="principles">
+        <p class="eyebrow">What we will stand on</p>
+        <h2>A point of view, held to a public record.</h2>
+        <ol>
+          <li>
+            <span class="n">01</span>
+            <h3>The record is public</h3>
+            <p>Meetings, filings, campaign reports — already required. The work is to make them readable.</p>
+          </li>
+          <li>
+            <span class="n">02</span>
+            <h3>Influence should be visible</h3>
+            <p>If a donor paid for the campaign, or a lobbyist drafted the amendment, a person should be able to see it.</p>
+          </li>
+          <li>
+            <span class="n">03</span>
+            <h3>Not a PAC</h3>
+            <p>No independent expenditure. No score-settling machine. The filings, arranged.</p>
+          </li>
+          <li>
+            <span class="n">04</span>
+            <h3>Not a party</h3>
+            <p>Corporate power is not a left or right costume. The record does not put on one.</p>
+          </li>
+          <li>
+            <span class="n">05</span>
+            <h3>Not a talk show</h3>
+            <p>No host. No segment. A briefing a stranger can finish in one sitting.</p>
+          </li>
+        </ol>
+      </section>
+
       <section class="close">
-        <p>A meeting prop, not a movement.</p>
-        <p class="briefing">The page is the briefing.</p>
+        <div class="close-card">
+          <p class="eyebrow">The page</p>
+          <h2>A meeting prop, not a movement.</h2>
+          <p>The page is the briefing. Same government record. A harder question. Not a PAC. Not a talk show. The filings, arranged so a stranger can see who was in the room.</p>
+        </div>
       </section>
     </main>
+
     <footer>
-      <p>People’s Lobby · the about page, for now.</p>
-      <p class="foot-name">peopleslobby.ai</p>
+      <p>People’s Lobby · The about page, for now.</p>
+      <p>Data layer: Citizen Portal</p>
+      <p class="intended">peopleslobby.ai</p>
     </footer>
+
   </body>
 </html>
