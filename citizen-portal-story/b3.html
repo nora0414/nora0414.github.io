@@ -1,0 +1,23 @@
+rs help pay for Polco. Price, vehicle, and target are unset.</li><li><strong class="text-white">The city turns it on</strong> — local government still has to say yes. Crowdfunding does not replace a city decision.</li></ol><div class="mx-auto max-w-xl rounded-md border border-white/15 bg-[#0a0e1a]/25 p-6 text-left"><form class="space-y-5 text-left" noValidate="" action="#ask" method="post"><div class="space-y-2"><label for="city" class="text-sm font-medium text-white">Name a city</label><input id="city" required="" placeholder="e.g. Middleton, Wisconsin" aria-invalid="false" class="h-11 w-full rounded-md border border-white/20 bg-white px-3 text-[#0a0e1a] placeholder:text-[#0a0e1a]/40" name="city" value=""/></div><div class="grid gap-5 sm:grid-cols-2"><div class="space-y-2"><label for="person" class="text-sm font-medium text-white">Your name</label><input id="person" placeholder="Optional" class="h-11 w-full rounded-md border border-white/20 bg-white px-3 text-[#0a0e1a] placeholder:text-[#0a0e1a]/40" name="person" value=""/></div><div class="space-y-2"><label for="email" class="text-sm font-medium text-white">Email</label><input id="email" type="email" placeholder="Optional — not collected" class="h-11 w-full rounded-md border border-white/20 bg-white px-3 text-[#0a0e1a] placeholder:text-[#0a0e1a]/40" name="email" value=""/></div></div><fieldset class="space-y-3"><legend class="text-sm font-medium text-white">I want to</legend><div class="grid gap-2 sm:grid-cols-2"><label class="flex cursor-pointer items-start gap-3 rounded-md border border-white/20 bg-black/15 px-4 py-3 text-sm text-white"><input type="radio" class="mt-1 accent-[#78002d]" name="intent" checked="" value="name"/><span>Name a city that should have Polco</span></label><label class="flex cursor-pointer items-start gap-3 rounded-md border border-white/20 bg-black/15 px-4 py-3 text-sm text-white"><input type="radio" class="mt-1 accent-[#78002d]" name="intent" value="fund"/><span>Help fund a seat when a city can turn it on</span></label></div></fieldset><button type="submit" class="btn btn-grad w-full sm:w-auto">Placeholder — register interest</button><p class="text-sm leading-relaxed text-white/70">Not an open raise. Vehicle and target unset. Pressing the button demonstrates the idea only.</p></form></div></div></section></main><footer class="story-footer"><div class="inner"><a href="#top" class="flex items-center gap-3 no-underline"><img src="https://www.citizenportal.ai/logo.svg" alt="Citizen Portal" height="28" style="height:28px;width:auto"/></a><span>First draft · September 8, 2026 · Concept</span></div></footer><!--$--><!--/$--><script>
+document.querySelectorAll("form").forEach(function(form){
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var city = (form.querySelector("[name=city]")||{}).value || "";
+    city = String(city).trim();
+    var box = form.parentElement;
+    if(!city){
+      var err = form.querySelector("[data-form-error]");
+      if(!err){
+        err = document.createElement("p");
+        err.setAttribute("data-form-error","");
+        err.setAttribute("role","alert");
+        err.style.cssText="color:#ffd0d0;font-size:14px";
+        form.prepend(err);
+      }
+      err.textContent="Name a city to continue. Nothing is filed.";
+      return;
+    }
+    box.innerHTML = "<p role=\"status\" style=\"color:#fff;font-size:17px;line-height:1.6\"><strong>Placeholder only — nothing was filed.</strong> You named <em>"+city.replace(/[<>&]/g,"")+"</em>. Vehicle, target, and raise are still unset. Nick has not reviewed this page.</p>";
+  });
+});
+</script></body></html>
