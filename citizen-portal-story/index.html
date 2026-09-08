@@ -6,22 +6,16 @@
 <meta name="robots" content="noindex, nofollow"/>
 <title>Help your city hear its people · Citizen Portal Story</title>
 <meta name="description" content="A first-draft Citizen Portal Story: crowdfund Polco so people can fund its use by their city. Nick Mastronardi has not reviewed this page. Mechanics are still open."/>
+<link rel="stylesheet" href="story.css"/>
 </head>
 <body class="min-h-full bg-paper font-sans text-body antialiased">
 <div id="app" style="color:#d0d5e0;font-family:system-ui,sans-serif;padding:48px 24px;background:#0a0e1a;min-height:100vh">Loading the story…</div>
 <script>
-function texts(urls){
-  return Promise.all(urls.map(function(u){return fetch(u).then(function(r){
-    if(!r.ok) throw new Error(u+" "+r.status);
-    return r.text();
-  });}));
-}
-Promise.all([texts(["s0.css","s1.css","s2.css","s3.css","s4.css","s5.css","s6.css"]), texts(["b0.html","b1.html","b2.html","b3.html"])]).then(function(res){
-  var style=document.createElement("style");
-  style.textContent=res[0].join("");
-  document.head.appendChild(style);
+Promise.all(["b0.html","b1.html","b2.html","b3.html"].map(function(u){
+  return fetch(u).then(function(r){ if(!r.ok) throw new Error(u+" "+r.status); return r.text(); });
+})).then(function(parts){
   var wrap=document.createElement("div");
-  wrap.innerHTML=res[1].join("");
+  wrap.innerHTML=parts.join("");
   var incoming=wrap.querySelector("body")||wrap;
   document.body.innerHTML=incoming.innerHTML;
   document.body.className=incoming.className||document.body.className;
