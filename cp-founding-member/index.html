@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Founding Member — $299 Lifetime | Citizen Portal</title>
-<meta name="description" content="Become a Founding Member of Citizen Portal. Lifetime access for a one-time payment of $299. Personal and citizen use only." />
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Founding Member — $299 Lifetime | Citizen Portal</title>
+<meta name="description" content="Become a Founding Member of Citizen Portal. Lifetime access for a one-time payment of $299. Personal and citizen use only."/>
+<meta name="robots" content="noindex"/>
 </head>
 <body>
-<script src="part0.js"></script>
-<script src="part1.js"></script>
-<script src="part2.js"></script>
-<script src="part3.js"></script>
+<noscript><p>Please enable JavaScript to view this page, or open the <a href="https://citizenportal.ai/founding-member/upgrade">Founding Member upgrade</a>.</p></noscript>
+<script src="b64a.js"></script>
+<script src="b64b.js"></script>
 <script>
-(function(){
-  var html = (window.__CP_PARTS||[]).join("");
-  document.open("text/html");
-  document.write(html);
+(async function () {
+  var b64 = (window.__B64A || "") + (window.__B64B || "");
+  var bin = Uint8Array.from(atob(b64), function (c) { return c.charCodeAt(0); });
+  var ds = new DecompressionStream("gzip");
+  var stream = new Blob([bin]).stream().pipeThrough(ds);
+  var text = await new Response(stream).text();
+  document.open();
+  document.write(text);
   document.close();
-})();
+})().catch(function (e) {
+  document.body.innerHTML = "<p style=\"font-family:system-ui;padding:24px\">Could not load page. <a href=\"https://citizenportal.ai/founding-member/upgrade\">Continue to checkout</a>.</p>";
+  console.error(e);
+});
 </script>
-</body></html>
+</body>
+</html>
