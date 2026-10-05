@@ -9,11 +9,17 @@
 </head>
 <body>
 <noscript><p>Please enable JavaScript to view this page, or open the <a href="https://citizenportal.ai/founding-member/upgrade">Founding Member upgrade</a>.</p></noscript>
-<script src="b64a.js"></script>
-<script src="b64b.js"></script>
+<script src="p0.js"></script>
+<script src="p1.js"></script>
+<script src="p2.js"></script>
+<script src="p3.js"></script>
+<script src="p4.js"></script>
+<script src="p5.js"></script>
+<script src="p6.js"></script>
+<script src="p7.js"></script>
 <script>
 (async function () {
-  var b64 = (window.__B64A || "") + (window.__B64B || "");
+  var b64 = window.__CPB64 || "";
   var bin = Uint8Array.from(atob(b64), function (c) { return c.charCodeAt(0); });
   var ds = new DecompressionStream("gzip");
   var stream = new Blob([bin]).stream().pipeThrough(ds);
