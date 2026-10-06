@@ -358,3 +358,15 @@ table { border-collapse: collapse; text-indent: 0; width: 100%; }
 .mb-4 { margin-bottom: 1rem; }
 .max-w-2xl { max-width: 42rem; }
 .max-w-3xl { max-width: 48rem; }
+
+/* Adopt-a-Newspaper fit callout */
+.section-pad-sm { padding-block: 2.5rem; }
+@media (min-width: 64rem) { .section-pad-sm { padding-block: 3rem; } }
+.fit-callout {
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent-gold);
+  background: var(--background);
+  padding: 1.75rem 1.75rem 1.75rem 1.5rem;
+  max-width: 48rem;
+}
+.fit-callout strong { color: var(--ink); font-weight: 600; }
