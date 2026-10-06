@@ -100,7 +100,7 @@
         "Preferred plan: " + plan + "\n" +
         "Note: " + (note || "(none)") + "\n";
       var mailto =
-        "mailto:feedback@soar.com" +
+        "mailto:paul@soaraistudio.com" +
         "?subject=" + encodeURIComponent("Freedom Portal / News Org inquire") +
         "&body=" + encodeURIComponent(body);
       window.location.href = mailto;
