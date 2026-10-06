@@ -11,7 +11,7 @@ a:hover{color:var(--accent);text-decoration-color:var(--accent)}
 p{margin:0 0 .7em}
 .lbl{font-family:var(--sans);font-weight:800;font-size:.72em;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .mast{padding-top:18px}
-.mast-grid{display:grid;grid-template-columns:200px 1fr 230px;gap:24px;align-items:center;border-bottom:1px solid var(--rule-dark);padding-bottom:12px}
+.mast-grid{display:grid;grid-template-columns:minmax(0,205px) minmax(0,1fr) minmax(0,205px);gap:24px;align-items:stretch;border-bottom:1px solid var(--rule-dark);padding-bottom:12px}
 .ear{font-family:var(--sans);font-size:12.5px;line-height:1.35;border:1px solid var(--rule-dark);padding:8px 10px;background:var(--paper)}
 .ear p{margin:0 0 3px}
 .ear-h{font-weight:800;letter-spacing:.1em;text-transform:uppercase;font-size:11px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:3px;margin-bottom:5px!important}
@@ -173,8 +173,9 @@ p{margin:0 0 .7em}
 .vid-s figcaption{font-size:13px}
 .story .body::after{content:"";display:block;clear:both}
 body:not([data-view="all"]) .sec{padding-top:18px}
+@media screen and (max-width:1200px){.nameplate{font-size:58px}}
 @media screen and (max-width:1080px){
-.mast-grid{grid-template-columns:170px 1fr 200px;gap:16px}
+.mast-grid{grid-template-columns:190px 1fr 190px;gap:16px}
 .nameplate{font-size:54px}
 .op-grid{grid-template-columns:minmax(0,1fr) minmax(0,2fr)}
 .letters{grid-column:1 / -1;border-left:0;padding-left:0;border-top:1px solid var(--rule-dark);margin-top:16px;padding-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
